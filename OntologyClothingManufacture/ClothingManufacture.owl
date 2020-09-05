@@ -1,0 +1,1768 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/stefan/ontologies/2018/10/fn71737"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/stefan/ontologies/2018/10/fn71737">
+    <Prefix name="" IRI="http://www.semanticweb.org/stefan/ontologies/2018/10/fn71737"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#BestSellerCategory"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BestSellerWomanClothingManufacturers"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BulgarianManufacturers"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Categories"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ClothingManufacturers"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ForeignManufacturers"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MansClothingCategory"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OneCategoryOfClothingManufacturers"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OnlyWomanClothingManufacturers"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SeveralCategoriesOfClothingManufacturers"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UnisexCategory"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#WomansOnlyClothingCategory"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#BSWProductsTo"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#BSandUnisexToBG"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#BSandUnisexToForeign"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#ManProdsToBG"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#ManProdsToForeign"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#ManProductsTo"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#UnisexAndManToSeveral"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#WomanProdsToBG"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#WomanProdsToForeign"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#WomanProdsToSeveral"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#WomanProductsTo"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasCategory"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isCategoryIn"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#categoryDescription"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#categoryType"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#color"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#companyAddress"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#companyDescription"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#companyName"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#mansClothType"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#marketSales"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#materialConsumption"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#registratedIn"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#size"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#unisexClothType"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#womanClothLength"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#womanClothType"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ANDREWS"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Addict"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Andrews"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Avangard"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Black_Bra"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Black_Sweatshirt"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Black_shirt"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Blue_Dress"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Blue_Sweatshirt"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Blue_shirt"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Chanel"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Colorful_shirt"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Dimitrov"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Dimitrov-OOD"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Gray_Sweatshirt"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Gray_shirt"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Green_Dress"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ivet"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Lacoste"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Lanvin"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Megi-P.M."/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Megi-P.M.-EOOD"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Milena"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Milena-AD"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Nelita"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Pierre_Cardin"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Podium"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Promod"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Red_Bra"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Red_Dress"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Red_Sweatshirt"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Red_bra"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Red_dress"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Rene_Lezard"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Tani"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Teodor"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Toli"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Vela"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Vela-96-AD"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#White_Sweatshirt"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#White_shirt"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#BestSellerCategory"/>
+        <Class IRI="#Categories"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BestSellerWomanClothingManufacturers"/>
+        <Class IRI="#OnlyWomanClothingManufacturers"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BulgarianManufacturers"/>
+        <Class IRI="#ClothingManufacturers"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Categories"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Categories"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isCategoryIn"/>
+            <Class IRI="#ClothingManufacturers"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ClothingManufacturers"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ClothingManufacturers"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasCategory"/>
+            <Class IRI="#Categories"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ForeignManufacturers"/>
+        <Class IRI="#ClothingManufacturers"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MansClothingCategory"/>
+        <Class IRI="#Categories"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OneCategoryOfClothingManufacturers"/>
+        <Class IRI="#ClothingManufacturers"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OnlyWomanClothingManufacturers"/>
+        <Class IRI="#ClothingManufacturers"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SeveralCategoriesOfClothingManufacturers"/>
+        <Class IRI="#ClothingManufacturers"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UnisexCategory"/>
+        <Class IRI="#Categories"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#WomansOnlyClothingCategory"/>
+        <Class IRI="#Categories"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#BestSellerWomanClothingManufacturers"/>
+        <Class IRI="#OneCategoryOfClothingManufacturers"/>
+        <Class IRI="#SeveralCategoriesOfClothingManufacturers"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#BulgarianManufacturers"/>
+        <Class IRI="#ForeignManufacturers"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Categories"/>
+        <Class IRI="#ClothingManufacturers"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#MansClothingCategory"/>
+        <Class IRI="#WomansOnlyClothingCategory"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#OneCategoryOfClothingManufacturers"/>
+        <Class IRI="#OnlyWomanClothingManufacturers"/>
+        <Class IRI="#SeveralCategoriesOfClothingManufacturers"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#UnisexCategory"/>
+        <Class IRI="#WomansOnlyClothingCategory"/>
+    </DisjointClasses>
+    <ClassAssertion>
+        <Class IRI="#BestSellerWomanClothingManufacturers"/>
+        <NamedIndividual IRI="#Addict"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#OneCategoryOfClothingManufacturers"/>
+        <NamedIndividual IRI="#Andrews"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#OnlyWomanClothingManufacturers"/>
+        <NamedIndividual IRI="#Avangard"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#WomansOnlyClothingCategory"/>
+        <NamedIndividual IRI="#Black_Bra"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#UnisexCategory"/>
+        <NamedIndividual IRI="#Black_Sweatshirt"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MansClothingCategory"/>
+        <NamedIndividual IRI="#Black_shirt"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#WomansOnlyClothingCategory"/>
+        <NamedIndividual IRI="#Blue_Dress"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#UnisexCategory"/>
+        <NamedIndividual IRI="#Blue_Sweatshirt"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MansClothingCategory"/>
+        <NamedIndividual IRI="#Blue_shirt"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#BestSellerWomanClothingManufacturers"/>
+        <NamedIndividual IRI="#Chanel"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MansClothingCategory"/>
+        <NamedIndividual IRI="#Colorful_shirt"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SeveralCategoriesOfClothingManufacturers"/>
+        <NamedIndividual IRI="#Dimitrov"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#BulgarianManufacturers"/>
+        <NamedIndividual IRI="#Dimitrov-OOD"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#UnisexCategory"/>
+        <NamedIndividual IRI="#Gray_Sweatshirt"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MansClothingCategory"/>
+        <NamedIndividual IRI="#Gray_shirt"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#WomansOnlyClothingCategory"/>
+        <NamedIndividual IRI="#Green_Dress"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#OnlyWomanClothingManufacturers"/>
+        <NamedIndividual IRI="#Ivet"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ForeignManufacturers"/>
+        <NamedIndividual IRI="#Lacoste"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ForeignManufacturers"/>
+        <NamedIndividual IRI="#Lanvin"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SeveralCategoriesOfClothingManufacturers"/>
+        <NamedIndividual IRI="#Megi-P.M."/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#BulgarianManufacturers"/>
+        <NamedIndividual IRI="#Megi-P.M.-EOOD"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SeveralCategoriesOfClothingManufacturers"/>
+        <NamedIndividual IRI="#Milena"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#BulgarianManufacturers"/>
+        <NamedIndividual IRI="#Milena-AD"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#OnlyWomanClothingManufacturers"/>
+        <NamedIndividual IRI="#Nelita"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ForeignManufacturers"/>
+        <NamedIndividual IRI="#Pierre_Cardin"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#OnlyWomanClothingManufacturers"/>
+        <NamedIndividual IRI="#Podium"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ForeignManufacturers"/>
+        <NamedIndividual IRI="#Promod"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#WomansOnlyClothingCategory"/>
+        <NamedIndividual IRI="#Red_Bra"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#WomansOnlyClothingCategory"/>
+        <NamedIndividual IRI="#Red_Dress"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#UnisexCategory"/>
+        <NamedIndividual IRI="#Red_Sweatshirt"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#BestSellerCategory"/>
+        <NamedIndividual IRI="#Red_bra"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#BestSellerCategory"/>
+        <NamedIndividual IRI="#Red_dress"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ForeignManufacturers"/>
+        <NamedIndividual IRI="#Rene_Lezard"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#BestSellerWomanClothingManufacturers"/>
+        <NamedIndividual IRI="#Tani"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#OneCategoryOfClothingManufacturers"/>
+        <NamedIndividual IRI="#Teodor"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#OneCategoryOfClothingManufacturers"/>
+        <NamedIndividual IRI="#Toli"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SeveralCategoriesOfClothingManufacturers"/>
+        <NamedIndividual IRI="#Vela"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#BulgarianManufacturers"/>
+        <NamedIndividual IRI="#Vela-96-AD"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#UnisexCategory"/>
+        <NamedIndividual IRI="#White_Sweatshirt"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MansClothingCategory"/>
+        <NamedIndividual IRI="#White_shirt"/>
+    </ClassAssertion>
+    <SameIndividual>
+        <NamedIndividual IRI="#Red_Bra"/>
+        <NamedIndividual IRI="#Red_bra"/>
+    </SameIndividual>
+    <SameIndividual>
+        <NamedIndividual IRI="#Red_Dress"/>
+        <NamedIndividual IRI="#Red_dress"/>
+    </SameIndividual>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#companyAddress"/>
+        <NamedIndividual IRI="#ANDREWS"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#companyDescription"/>
+        <NamedIndividual IRI="#ANDREWS"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#companyName"/>
+        <NamedIndividual IRI="#ANDREWS"/>
+        <Literal>ANDREWS Fashion</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#registratedIn"/>
+        <NamedIndividual IRI="#ANDREWS"/>
+        <Literal>BG</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#companyAddress"/>
+        <NamedIndividual IRI="#Addict"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#companyDescription"/>
+        <NamedIndividual IRI="#Addict"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#companyName"/>
+        <NamedIndividual IRI="#Addict"/>
+        <Literal>Boutique ADDICT</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#registratedIn"/>
+        <NamedIndividual IRI="#Addict"/>
+        <Literal>F</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#companyAddress"/>
+        <NamedIndividual IRI="#Andrews"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#companyDescription"/>
+        <NamedIndividual IRI="#Andrews"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#companyName"/>
+        <NamedIndividual IRI="#Andrews"/>
+        <Literal>Andrews Fashion</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#registratedIn"/>
+        <NamedIndividual IRI="#Andrews"/>
+        <Literal>BG</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#companyAddress"/>
+        <NamedIndividual IRI="#Avangard"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#companyDescription"/>
+        <NamedIndividual IRI="#Avangard"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#companyName"/>
+        <NamedIndividual IRI="#Avangard"/>
+        <Literal>Avangard</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#registratedIn"/>
+        <NamedIndividual IRI="#Avangard"/>
+        <Literal>BG</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#categoryDescription"/>
+        <NamedIndividual IRI="#Black_Bra"/>
+        <Literal>Bras are designed for a variety of purposes, including enhancing a woman&apos;s breast size, creating cleavage, or for other aesthetic, fashion or more practical considerations.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#color"/>
+        <NamedIndividual IRI="#Black_Bra"/>
+        <Literal>Black</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#marketSales"/>
+        <NamedIndividual IRI="#Black_Bra"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">40</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#materialConsumption"/>
+        <NamedIndividual IRI="#Black_Bra"/>
+        <Literal>High</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#size"/>
+        <NamedIndividual IRI="#Black_Bra"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">25</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#womanClothLength"/>
+        <NamedIndividual IRI="#Black_Bra"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#womanClothType"/>
+        <NamedIndividual IRI="#Black_Bra"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#categoryDescription"/>
+        <NamedIndividual IRI="#Black_Sweatshirt"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#color"/>
+        <NamedIndividual IRI="#Black_Sweatshirt"/>
+        <Literal>Black</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#materialConsumption"/>
+        <NamedIndividual IRI="#Black_Sweatshirt"/>
+        <Literal>High</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#size"/>
+        <NamedIndividual IRI="#Black_Sweatshirt"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">35</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#unisexClothType"/>
+        <NamedIndividual IRI="#Black_Sweatshirt"/>
+        <Literal>Average</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#categoryDescription"/>
+        <NamedIndividual IRI="#Black_shirt"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#color"/>
+        <NamedIndividual IRI="#Black_shirt"/>
+        <Literal>Black</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#mansClothType"/>
+        <NamedIndividual IRI="#Black_shirt"/>
+        <Literal>Average-width</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#materialConsumption"/>
+        <NamedIndividual IRI="#Black_shirt"/>
+        <Literal>Low</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#size"/>
+        <NamedIndividual IRI="#Black_shirt"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">20</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#categoryDescription"/>
+        <NamedIndividual IRI="#Blue_Dress"/>
+        <Literal>It consists of a top piece that covers the torso and hangs down over the legs.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#color"/>
+        <NamedIndividual IRI="#Blue_Dress"/>
+        <Literal>Blue</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#marketSales"/>
+        <NamedIndividual IRI="#Blue_Dress"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">45</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#materialConsumption"/>
+        <NamedIndividual IRI="#Blue_Dress"/>
+        <Literal>Medium</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#size"/>
+        <NamedIndividual IRI="#Blue_Dress"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">30</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#womanClothLength"/>
+        <NamedIndividual IRI="#Blue_Dress"/>
+        <Literal>Long</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#womanClothType"/>
+        <NamedIndividual IRI="#Blue_Dress"/>
+        <Literal>Narrow</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#categoryDescription"/>
+        <NamedIndividual IRI="#Blue_Sweatshirt"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#color"/>
+        <NamedIndividual IRI="#Blue_Sweatshirt"/>
+        <Literal>Blue</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#materialConsumption"/>
+        <NamedIndividual IRI="#Blue_Sweatshirt"/>
+        <Literal>High</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#size"/>
+        <NamedIndividual IRI="#Blue_Sweatshirt"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">35</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#unisexClothType"/>
+        <NamedIndividual IRI="#Blue_Sweatshirt"/>
+        <Literal>Average</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#categoryDescription"/>
+        <NamedIndividual IRI="#Blue_shirt"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#color"/>
+        <NamedIndividual IRI="#Blue_shirt"/>
+        <Literal>Blue</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#mansClothType"/>
+        <NamedIndividual IRI="#Blue_shirt"/>
+        <Literal>Average-width</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#materialConsumption"/>
+        <NamedIndividual IRI="#Blue_shirt"/>
+        <Literal>Low</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#size"/>
+        <NamedIndividual IRI="#Blue_shirt"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">20</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#companyAddress"/>
+        <NamedIndividual IRI="#Chanel"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#companyDescription"/>
+        <NamedIndividual IRI="#Chanel"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#companyName"/>
+        <NamedIndividual IRI="#Chanel"/>
+        <Literal>Chanel</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#registratedIn"/>
+        <NamedIndividual IRI="#Chanel"/>
+        <Literal>F</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#categoryDescription"/>
+        <NamedIndividual IRI="#Colorful_shirt"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#color"/>
+        <NamedIndividual IRI="#Colorful_shirt"/>
+        <Literal>Colorful</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#mansClothType"/>
+        <NamedIndividual IRI="#Colorful_shirt"/>
+        <Literal>Average-width</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#materialConsumption"/>
+        <NamedIndividual IRI="#Colorful_shirt"/>
+        <Literal>Low</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#size"/>
+        <NamedIndividual IRI="#Colorful_shirt"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">20</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#companyAddress"/>
+        <NamedIndividual IRI="#Dimitrov"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#companyDescription"/>
+        <NamedIndividual IRI="#Dimitrov"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#companyName"/>
+        <NamedIndividual IRI="#Dimitrov"/>
+        <Literal>Dimitrov OOD</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#registratedIn"/>
+        <NamedIndividual IRI="#Dimitrov"/>
+        <Literal>BG</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#companyAddress"/>
+        <NamedIndividual IRI="#Dimitrov-OOD"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#companyDescription"/>
+        <NamedIndividual IRI="#Dimitrov-OOD"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#companyName"/>
+        <NamedIndividual IRI="#Dimitrov-OOD"/>
+        <Literal>Dimitrov OOD</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#registratedIn"/>
+        <NamedIndividual IRI="#Dimitrov-OOD"/>
+        <Literal>BG</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#categoryDescription"/>
+        <NamedIndividual IRI="#Gray_Sweatshirt"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#color"/>
+        <NamedIndividual IRI="#Gray_Sweatshirt"/>
+        <Literal>Gray</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#materialConsumption"/>
+        <NamedIndividual IRI="#Gray_Sweatshirt"/>
+        <Literal>High</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#size"/>
+        <NamedIndividual IRI="#Gray_Sweatshirt"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">35</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#unisexClothType"/>
+        <NamedIndividual IRI="#Gray_Sweatshirt"/>
+        <Literal>Average</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#categoryDescription"/>
+        <NamedIndividual IRI="#Gray_shirt"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#color"/>
+        <NamedIndividual IRI="#Gray_shirt"/>
+        <Literal>Gray</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#mansClothType"/>
+        <NamedIndividual IRI="#Gray_shirt"/>
+        <Literal>Average-width</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#materialConsumption"/>
+        <NamedIndividual IRI="#Gray_shirt"/>
+        <Literal>Low</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#size"/>
+        <NamedIndividual IRI="#Gray_shirt"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">20</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#categoryDescription"/>
+        <NamedIndividual IRI="#Green_Dress"/>
+        <Literal>It consists of a top piece that covers the torso and hangs down over the legs.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#color"/>
+        <NamedIndividual IRI="#Green_Dress"/>
+        <Literal>Green</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#marketSales"/>
+        <NamedIndividual IRI="#Green_Dress"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">30</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#materialConsumption"/>
+        <NamedIndividual IRI="#Green_Dress"/>
+        <Literal>Medium</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#size"/>
+        <NamedIndividual IRI="#Green_Dress"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">30</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#womanClothLength"/>
+        <NamedIndividual IRI="#Green_Dress"/>
+        <Literal>Short</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#womanClothType"/>
+        <NamedIndividual IRI="#Green_Dress"/>
+        <Literal>Slim</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#companyAddress"/>
+        <NamedIndividual IRI="#Ivet"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#companyDescription"/>
+        <NamedIndividual IRI="#Ivet"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#companyName"/>
+        <NamedIndividual IRI="#Ivet"/>
+        <Literal>Ivet</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#registratedIn"/>
+        <NamedIndividual IRI="#Ivet"/>
+        <Literal>BG</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#companyAddress"/>
+        <NamedIndividual IRI="#Lacoste"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#companyDescription"/>
+        <NamedIndividual IRI="#Lacoste"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#companyName"/>
+        <NamedIndividual IRI="#Lacoste"/>
+        <Literal>Lacoste</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#registratedIn"/>
+        <NamedIndividual IRI="#Lacoste"/>
+        <Literal>F</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#companyAddress"/>
+        <NamedIndividual IRI="#Lanvin"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#companyDescription"/>
+        <NamedIndividual IRI="#Lanvin"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#companyName"/>
+        <NamedIndividual IRI="#Lanvin"/>
+        <Literal>Lanvin</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#registratedIn"/>
+        <NamedIndividual IRI="#Lanvin"/>
+        <Literal>F</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#companyAddress"/>
+        <NamedIndividual IRI="#Megi-P.M."/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#companyDescription"/>
+        <NamedIndividual IRI="#Megi-P.M."/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#companyName"/>
+        <NamedIndividual IRI="#Megi-P.M."/>
+        <Literal>Megi-P.M. EOOD</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#registratedIn"/>
+        <NamedIndividual IRI="#Megi-P.M."/>
+        <Literal>BG</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#companyAddress"/>
+        <NamedIndividual IRI="#Megi-P.M.-EOOD"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#companyDescription"/>
+        <NamedIndividual IRI="#Megi-P.M.-EOOD"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#companyName"/>
+        <NamedIndividual IRI="#Megi-P.M.-EOOD"/>
+        <Literal>Megi-P.M. EOOD</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#registratedIn"/>
+        <NamedIndividual IRI="#Megi-P.M.-EOOD"/>
+        <Literal>BG</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#companyAddress"/>
+        <NamedIndividual IRI="#Milena"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#companyDescription"/>
+        <NamedIndividual IRI="#Milena"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#companyName"/>
+        <NamedIndividual IRI="#Milena"/>
+        <Literal>Milena style</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#registratedIn"/>
+        <NamedIndividual IRI="#Milena"/>
+        <Literal>BG</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#companyAddress"/>
+        <NamedIndividual IRI="#Milena-AD"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#companyDescription"/>
+        <NamedIndividual IRI="#Milena-AD"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#companyName"/>
+        <NamedIndividual IRI="#Milena-AD"/>
+        <Literal>Milena AD</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#registratedIn"/>
+        <NamedIndividual IRI="#Milena-AD"/>
+        <Literal>BG</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#companyAddress"/>
+        <NamedIndividual IRI="#Nelita"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#companyDescription"/>
+        <NamedIndividual IRI="#Nelita"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#companyName"/>
+        <NamedIndividual IRI="#Nelita"/>
+        <Literal>Nelita</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#registratedIn"/>
+        <NamedIndividual IRI="#Nelita"/>
+        <Literal>BG</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#companyAddress"/>
+        <NamedIndividual IRI="#Pierre_Cardin"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#companyDescription"/>
+        <NamedIndividual IRI="#Pierre_Cardin"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#companyName"/>
+        <NamedIndividual IRI="#Pierre_Cardin"/>
+        <Literal>Pierre Cardin</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#registratedIn"/>
+        <NamedIndividual IRI="#Pierre_Cardin"/>
+        <Literal>F</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#companyAddress"/>
+        <NamedIndividual IRI="#Podium"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#companyDescription"/>
+        <NamedIndividual IRI="#Podium"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#companyName"/>
+        <NamedIndividual IRI="#Podium"/>
+        <Literal>Podium</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#registratedIn"/>
+        <NamedIndividual IRI="#Podium"/>
+        <Literal>BG</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#companyAddress"/>
+        <NamedIndividual IRI="#Promod"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#companyDescription"/>
+        <NamedIndividual IRI="#Promod"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#companyName"/>
+        <NamedIndividual IRI="#Promod"/>
+        <Literal>Promod</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#registratedIn"/>
+        <NamedIndividual IRI="#Promod"/>
+        <Literal>F</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#categoryDescription"/>
+        <NamedIndividual IRI="#Red_Bra"/>
+        <Literal>Bras are designed for a variety of purposes, including enhancing a woman&apos;s breast size, creating cleavage, or for other aesthetic, fashion or more practical considerations.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#color"/>
+        <NamedIndividual IRI="#Red_Bra"/>
+        <Literal>Red</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#marketSales"/>
+        <NamedIndividual IRI="#Red_Bra"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">50</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#materialConsumption"/>
+        <NamedIndividual IRI="#Red_Bra"/>
+        <Literal>High</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#size"/>
+        <NamedIndividual IRI="#Red_Bra"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">20</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#womanClothLength"/>
+        <NamedIndividual IRI="#Red_Bra"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#womanClothType"/>
+        <NamedIndividual IRI="#Red_Bra"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#categoryDescription"/>
+        <NamedIndividual IRI="#Red_Dress"/>
+        <Literal>It consists of a top piece that covers the torso and hangs down over the legs.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#color"/>
+        <NamedIndividual IRI="#Red_Dress"/>
+        <Literal>Red</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#marketSales"/>
+        <NamedIndividual IRI="#Red_Dress"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">60</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#materialConsumption"/>
+        <NamedIndividual IRI="#Red_Dress"/>
+        <Literal>Medium</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#size"/>
+        <NamedIndividual IRI="#Red_Dress"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">30</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#womanClothLength"/>
+        <NamedIndividual IRI="#Red_Dress"/>
+        <Literal>Long</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#womanClothType"/>
+        <NamedIndividual IRI="#Red_Dress"/>
+        <Literal>Narrow</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#categoryDescription"/>
+        <NamedIndividual IRI="#Red_Sweatshirt"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#color"/>
+        <NamedIndividual IRI="#Red_Sweatshirt"/>
+        <Literal>Red</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#materialConsumption"/>
+        <NamedIndividual IRI="#Red_Sweatshirt"/>
+        <Literal>High</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#size"/>
+        <NamedIndividual IRI="#Red_Sweatshirt"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">35</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#unisexClothType"/>
+        <NamedIndividual IRI="#Red_Sweatshirt"/>
+        <Literal>Average</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#companyAddress"/>
+        <NamedIndividual IRI="#Rene_Lezard"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#companyDescription"/>
+        <NamedIndividual IRI="#Rene_Lezard"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#companyName"/>
+        <NamedIndividual IRI="#Rene_Lezard"/>
+        <Literal>Rene Lezard</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#registratedIn"/>
+        <NamedIndividual IRI="#Rene_Lezard"/>
+        <Literal>F</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#companyAddress"/>
+        <NamedIndividual IRI="#Tani"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#companyDescription"/>
+        <NamedIndividual IRI="#Tani"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#companyName"/>
+        <NamedIndividual IRI="#Tani"/>
+        <Literal>Tani Fashion</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#registratedIn"/>
+        <NamedIndividual IRI="#Tani"/>
+        <Literal>BG</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#companyAddress"/>
+        <NamedIndividual IRI="#Teodor"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#companyDescription"/>
+        <NamedIndividual IRI="#Teodor"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#companyName"/>
+        <NamedIndividual IRI="#Teodor"/>
+        <Literal>Teodor</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#registratedIn"/>
+        <NamedIndividual IRI="#Teodor"/>
+        <Literal>BG</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#companyAddress"/>
+        <NamedIndividual IRI="#Toli"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#companyDescription"/>
+        <NamedIndividual IRI="#Toli"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#companyName"/>
+        <NamedIndividual IRI="#Toli"/>
+        <Literal>Toli M</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#registratedIn"/>
+        <NamedIndividual IRI="#Toli"/>
+        <Literal>BG</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#companyAddress"/>
+        <NamedIndividual IRI="#Vela"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#companyDescription"/>
+        <NamedIndividual IRI="#Vela"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#companyName"/>
+        <NamedIndividual IRI="#Vela"/>
+        <Literal>VELA</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#registratedIn"/>
+        <NamedIndividual IRI="#Vela"/>
+        <Literal>F</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#companyAddress"/>
+        <NamedIndividual IRI="#Vela-96-AD"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#companyDescription"/>
+        <NamedIndividual IRI="#Vela-96-AD"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#companyName"/>
+        <NamedIndividual IRI="#Vela-96-AD"/>
+        <Literal>Vela 96 AD</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#registratedIn"/>
+        <NamedIndividual IRI="#Vela-96-AD"/>
+        <Literal>BG</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#categoryDescription"/>
+        <NamedIndividual IRI="#White_Sweatshirt"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#color"/>
+        <NamedIndividual IRI="#White_Sweatshirt"/>
+        <Literal>White</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#materialConsumption"/>
+        <NamedIndividual IRI="#White_Sweatshirt"/>
+        <Literal>High</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#size"/>
+        <NamedIndividual IRI="#White_Sweatshirt"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">35</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#unisexClothType"/>
+        <NamedIndividual IRI="#White_Sweatshirt"/>
+        <Literal>Average</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#categoryDescription"/>
+        <NamedIndividual IRI="#White_shirt"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#color"/>
+        <NamedIndividual IRI="#White_shirt"/>
+        <Literal>White</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#mansClothType"/>
+        <NamedIndividual IRI="#White_shirt"/>
+        <Literal>Average-width</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#materialConsumption"/>
+        <NamedIndividual IRI="#White_shirt"/>
+        <Literal>Low</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#size"/>
+        <NamedIndividual IRI="#White_shirt"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">20</Literal>
+    </DataPropertyAssertion>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#BSWProductsTo"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#BSandUnisexToBG"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#BSandUnisexToForeign"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#ManProdsToBG"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#ManProdsToForeign"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#ManProductsTo"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#UnisexAndManToSeveral"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#WomanProdsToBG"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#WomanProdsToForeign"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#WomanProdsToSeveral"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#WomanProductsTo"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasCategory"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isCategoryIn"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasCategory"/>
+        <ObjectProperty IRI="#isCategoryIn"/>
+    </InverseObjectProperties>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#BSWProductsTo"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#BSandUnisexToBG"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#BSandUnisexToForeign"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#ManProdsToBG"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#ManProdsToForeign"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#ManProductsTo"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#UnisexAndManToSeveral"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#WomanProdsToBG"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#WomanProdsToForeign"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#WomanProdsToSeveral"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#WomanProductsTo"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#hasCategory"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#isCategoryIn"/>
+    </AsymmetricObjectProperty>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#BSWProductsTo"/>
+        <Class IRI="#BestSellerCategory"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#BSWProductsTo"/>
+        <Class IRI="#WomansOnlyClothingCategory"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#BSandUnisexToBG"/>
+        <Class IRI="#BestSellerCategory"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#BSandUnisexToBG"/>
+        <Class IRI="#UnisexCategory"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#BSandUnisexToForeign"/>
+        <Class IRI="#BestSellerCategory"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#BSandUnisexToForeign"/>
+        <Class IRI="#UnisexCategory"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#ManProdsToBG"/>
+        <Class IRI="#MansClothingCategory"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#ManProdsToForeign"/>
+        <Class IRI="#MansClothingCategory"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#ManProductsTo"/>
+        <Class IRI="#MansClothingCategory"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#UnisexAndManToSeveral"/>
+        <Class IRI="#MansClothingCategory"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#UnisexAndManToSeveral"/>
+        <Class IRI="#UnisexCategory"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#WomanProdsToBG"/>
+        <Class IRI="#WomansOnlyClothingCategory"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#WomanProdsToForeign"/>
+        <Class IRI="#WomansOnlyClothingCategory"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#WomanProdsToSeveral"/>
+        <Class IRI="#WomansOnlyClothingCategory"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#WomanProductsTo"/>
+        <Class IRI="#WomansOnlyClothingCategory"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasCategory"/>
+        <Class IRI="#ClothingManufacturers"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isCategoryIn"/>
+        <Class IRI="#Categories"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#BSWProductsTo"/>
+        <Class IRI="#BestSellerWomanClothingManufacturers"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#BSandUnisexToBG"/>
+        <Class IRI="#BulgarianManufacturers"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#BSandUnisexToForeign"/>
+        <Class IRI="#ForeignManufacturers"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#ManProdsToBG"/>
+        <Class IRI="#BulgarianManufacturers"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#ManProdsToForeign"/>
+        <Class IRI="#ForeignManufacturers"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#ManProductsTo"/>
+        <Class IRI="#OneCategoryOfClothingManufacturers"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#UnisexAndManToSeveral"/>
+        <Class IRI="#SeveralCategoriesOfClothingManufacturers"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#WomanProdsToBG"/>
+        <Class IRI="#BulgarianManufacturers"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#WomanProdsToForeign"/>
+        <Class IRI="#ForeignManufacturers"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#WomanProdsToSeveral"/>
+        <Class IRI="#SeveralCategoriesOfClothingManufacturers"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#WomanProductsTo"/>
+        <Class IRI="#OnlyWomanClothingManufacturers"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasCategory"/>
+        <Class IRI="#Categories"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isCategoryIn"/>
+        <Class IRI="#ClothingManufacturers"/>
+    </ObjectPropertyRange>
+    <DisjointObjectProperties>
+        <ObjectProperty IRI="#BSWProductsTo"/>
+        <ObjectProperty IRI="#BSandUnisexToBG"/>
+        <ObjectProperty IRI="#BSandUnisexToForeign"/>
+        <ObjectProperty IRI="#ManProdsToBG"/>
+        <ObjectProperty IRI="#ManProdsToForeign"/>
+        <ObjectProperty IRI="#ManProductsTo"/>
+        <ObjectProperty IRI="#UnisexAndManToSeveral"/>
+        <ObjectProperty IRI="#WomanProdsToBG"/>
+        <ObjectProperty IRI="#WomanProdsToForeign"/>
+        <ObjectProperty IRI="#WomanProdsToSeveral"/>
+        <ObjectProperty IRI="#WomanProductsTo"/>
+        <ObjectProperty IRI="#hasCategory"/>
+        <ObjectProperty IRI="#isCategoryIn"/>
+    </DisjointObjectProperties>
+    <DataPropertyDomain>
+        <DataProperty IRI="#categoryDescription"/>
+        <Class IRI="#Categories"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#categoryType"/>
+        <Class IRI="#Categories"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#color"/>
+        <Class IRI="#Categories"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#companyAddress"/>
+        <Class IRI="#ClothingManufacturers"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#companyDescription"/>
+        <Class IRI="#ClothingManufacturers"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#companyName"/>
+        <Class IRI="#ClothingManufacturers"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#mansClothType"/>
+        <Class IRI="#MansClothingCategory"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#marketSales"/>
+        <Class IRI="#WomansOnlyClothingCategory"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#materialConsumption"/>
+        <Class IRI="#Categories"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#registratedIn"/>
+        <Class IRI="#ClothingManufacturers"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#size"/>
+        <Class IRI="#Categories"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#unisexClothType"/>
+        <Class IRI="#UnisexCategory"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#womanClothLength"/>
+        <Class IRI="#WomansOnlyClothingCategory"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#womanClothType"/>
+        <Class IRI="#WomansOnlyClothingCategory"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#categoryDescription"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#categoryType"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#color"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#companyAddress"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#companyDescription"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#companyName"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#mansClothType"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#marketSales"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#materialConsumption"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#registratedIn"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#size"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#unisexClothType"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#womanClothLength"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#womanClothType"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Categories</IRI>
+        <Literal>has the clothes products in it. The Data Properties will be for products themselves</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.6.2018-09-06T00:27:41Z) https://github.com/owlcs/owlapi -->
+
